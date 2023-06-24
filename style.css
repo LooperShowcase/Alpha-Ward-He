@@ -1,0 +1,47 @@
+body
+
+{
+    font-family: 'Lora', serif;
+background-color: rgb(255, 255, 255);
+
+}
+
+
+table,tr,th,td{
+
+border: solid 2px blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    background-color: #ffffff;
+    
+
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ff0000;
+  }
+
+
+
+
+#container {
+    display: flex;
+    justify-content: center;
+  }
